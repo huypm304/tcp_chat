@@ -13,14 +13,11 @@ A simple TCP socket-based messaging system using Python that demonstrates basic 
 
 ---
 
-## File Structure
-
-├── server.py # Server-side code
-├── client.py # Client-side code
-└── README.md # This file
-
 ## How to Run
 
 1. Start the server:
 ```bash
 python server.py
+
+2. Start the client:
+python client.py
