@@ -15,9 +15,30 @@ A simple TCP socket-based messaging system using Python that demonstrates basic 
 
 ## How to Run
 
-1. Start the server:
+### Start the Server
 ```bash
 python server.py
+```
 
-2. Start the client:
+### Start the Client
+```bash
 python client.py
+```
+
+**Key Notes:**
+1. **Order Matters**: Always start the server before the client.
+2. **Separate Terminals**: Run the server and client in different terminal windows.
+3. **Python 3 Users**: If your system defaults to Python 2, use:
+   ```bash
+   python3 server.py
+   python3 client.py
+   ```
+**Example Workflow**:
+1. Terminal 1 (Server):
+   ```bash
+   python server.py
+   ```
+2. Terminal 2 (Client):
+   ```bash
+   python client.py
+   ```
